@@ -13,7 +13,7 @@ public class TransposeMatrix {
     }
     public static void transpose(int matrix[][]){
         for(int i = 0; i <= matrix.length-1; i++){
-            for(int j = 0; j <= matrix[0].length-1; j++){
+            for(int j = i+1; j <= matrix[0].length-1; j++){
                 if(i == j){
                     continue;
                 }
