@@ -5,5 +5,5 @@ public class TilingProblem {
     }
     public static int countWays(int n){
         return (n == 0 || n == 1) ? 1 :(countWays(n - 1) + countWays(n - 2));
-    }    
+    }   
 }
